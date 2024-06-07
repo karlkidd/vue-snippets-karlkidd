@@ -1,0 +1,168 @@
+{
+	"vue2": {
+		"prefix": "vueinit2",
+		"body": [
+			"<template>",
+            "\t<div>",
+			"\t\t$0",
+            "\t</div>",
+			"</template>",
+			"<script>",
+            "export default {",
+            "\tdata(){",
+            "\t\treturn {",
+            "\t\t\t",
+			"\t\t}",
+			"\t},",
+			"\tcreated(){",
+			"\t\t",
+			"\t},",
+			"\tmethods:{",
+			"\t\t",
+			"\t},",
+			"}",
+			"</script>",
+			"<style scoped lang=\"scss$1\">",
+			"\t",
+			"</style>"
+		],
+		"description": "vue2模版初始化"
+	},
+	"vue3": {
+		"prefix": "vueinit3",
+		"body": [
+			"<template>",
+            "\t<div>",
+			"\t\t$0",
+            "\t</div>",
+			"</template>",
+			"\t",
+			"<script setup>",
+			"import { ref,reactive } from 'vue'",
+			"\t",
+			"</script>",
+			"\t",
+			"<style>",
+			"\t",
+			"</style>"
+		],
+		"description": "vue模版初始化(默认setup语法糖和ts)"
+	},
+	"vue3ts": {
+		"prefix": "vueinit3ts",
+		"body": [
+			"<template>",
+            "\t<div>",
+			"\t\t$0",
+            "\t</div>",
+			"</template>",
+			"\t",
+			"<script setup lang='ts'>",
+			"import { ref,reactive } from 'vue'",
+			"\t",
+			"</script>",
+			"\t",
+			"<style>",
+			"\t",
+			"</style>"
+		],
+		"description": "vue模版初始化(默认setup语法糖和ts)"
+	},
+	"template": {
+		"prefix": "template",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"\t\t$0",
+			"\t</div>",
+			"</template>"
+		],
+		"description": "template模版"
+	},
+	"script": {
+		"prefix": "script2",
+		"body": [
+			"<script>",
+            "export default {",
+            "\tdata(){",
+            "\t\treturn {",
+            "\t\t\t",
+			"\t\t}",
+			"\t},",
+			"\tcreated(){",
+			"\t\t",
+			"\t},",
+			"\tmethods:{",
+			"\t\t",
+			"\t},",
+			"}",
+			"</script>"
+		],
+		"description": "script element"
+	},
+	"scriptsetup": {
+		"prefix": "scriptsetup",
+		"body": [
+			"<script setup>",
+            "import { ref,reactive } from 'vue'",
+			"\t$0",
+			"</script>"
+		],
+		"description": "script with setup and tslang"
+	},
+	"scriptsetupts": {
+		"prefix": "scriptSetupTs",
+		"body": [
+			"<script setup lang=\"ts\">",
+            "import { ref,reactive } from 'vue'",
+			"\t$0",
+			"</script>"
+		],
+		"description": "script with setup and tslang"
+	},
+	"style": {
+		"prefix": "style",
+		"body": [
+			"<style lang=\"$0\" scoped>",
+			"\t",
+			"</style>"
+		],
+		"description": "style element with lang attribute"
+	},
+	"styleCss": {
+		"prefix": "stylecss",
+		"body": [
+			"<style scoped>",
+			"\t$0",
+			"</style>"
+		],
+		"description": "css style"
+	},
+	"styleScss": {
+		"prefix": "stylescss",
+		"body": [
+			"<style lang=\"scss\" scoped>",
+			"\t$0",
+			"</style>"
+		],
+		"description": "Scss style"
+	},
+	"styleSass": {
+		"prefix": "stylesass",
+		"body": [
+			"<style lang=\"sass\" scoped>",
+			"\t$0",
+			"</style>"
+		],
+		"description": "Sass style"
+	},
+	"styleLess": {
+		"prefix": "styleless",
+		"body": [
+			"<style lang=\"less\" scoped>",
+			"\t$0",
+			"</style>"
+		],
+		"description": "Less style"
+	}
+}

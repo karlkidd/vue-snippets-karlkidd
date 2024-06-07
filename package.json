@@ -1,0 +1,61 @@
+{
+    "name": "vue-snippets-karlkidd",
+    "displayName": "vue-snippets-karlkidd",
+    "description": "a vue2 vue3 vue-router vuex pinia snippets for vscode",
+    "author": "karlkidd",
+    "version": "0.0.1",
+    "publisher": "karlkidd",
+    "icon": "assets/logo.png",
+    "keywords": [
+        "vue",
+        "snippets",
+        "vue3"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/karlkidd/vue-snippets-karlkidd.git"
+    },
+    "bugs": {
+        "url": "https://github.com/karlkidd/vue-snippets-karlkidd.git/issues",
+        "email": "karlkidd8080@163.com"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.88.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/vue-template.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/vue-template.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/vue-script.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/vue-script.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/vue-router.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/vue-router.json"
+            }
+        ]
+    }
+}
